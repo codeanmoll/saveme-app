@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "664999212334",
+    "project_id": "saveme-51664",
+    "storage_bucket": "saveme-51664.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664999212334:android:e6dc9c6f5834e8917d76bf",
+        "android_client_info": {
+          "package_name": "com.saveme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664999212334-doj2elschg4mk4k3r0n3j2obk7fotpfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saveme",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "664999212334-spraao44b6nlaa4ajel0qn1ej6ct8mdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCdCkxnxLci9o_04iGA6boZYRWhAT--mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664999212334-spraao44b6nlaa4ajel0qn1ej6ct8mdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
