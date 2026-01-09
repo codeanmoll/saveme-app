@@ -1,10 +1,13 @@
 import React from "react";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import Ionicons from "react-native-vector-icons/Ionicons";
-
+import { useNavigation } from '@react-navigation/native';
 const InboxList = ({ unread = 2, isEmergency = false, isOnline = true }) => {
+     const navigation = useNavigation();
+
+     
   return (
-    <TouchableOpacity activeOpacity={0.7} style={styles.card}>
+    <TouchableOpacity activeOpacity={0.7}  onPress={() => navigation.navigate("AiScreen")} style={styles.card}>
       {/* Avatar */}
       <View style={styles.avatarWrap}>
         <Image

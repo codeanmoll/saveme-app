@@ -2,10 +2,14 @@ import React from "react";
 import { Image, Text, View, TouchableOpacity } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
 import Ionicons from "react-native-vector-icons/Ionicons";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import InboxList from "../components/InboxList";
 import styles from "./style/MessagesStyle";
+import { useNavigation } from '@react-navigation/native';
 
 const Messages = () => {
+  const navigation = useNavigation();
+
   return (
     <View style={styles.screen}>
       {/* Header */}
@@ -37,6 +41,9 @@ const Messages = () => {
         {/* Inbox */}
         <InboxList />
       </ScrollView>
+      <View style={{backgroundColor:"#A4161A",width:70,height:70,borderRadius:12,display:"flex",alignItems:"center",justifyContent:"center", position:"absolute",bottom:30,right:20}} onTouchEnd={() => navigation.navigate("AiScreen")}>
+        <MaterialCommunityIcons name="robot-happy" color="#FFF" size={40} />
+      </View>
     </View>
   );
 };
